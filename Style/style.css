@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*{
+    font-family: "Montserrat", serif;
+}
+
+.stock-img{
+    width: 650px;
+    position: absolute;
+    left: 370px;
+    top: 38px;
+
+}
+.cycle-img{
+    width: 800px;
+    position: absolute;  
+    left: -190px;
+    
+}
+.signup-section{
+    margin-right: 200px;
+}
+.txt-color{
+  color: #ff5b27;  
+  font-family: "Montserrat", serif;
+}
+.sign-btn{
+    background-color: #ff5b27;
+}
+.input-field{
+    border: 2px solid #e2e2e2;
+}
+.input-field:focus{
+    outline: none;
+}
+#left-resp-section{
+    display: none !important;
+}
+.resp-img{
+    margin-top: 100px;
+}
+#left-section h1{
+    font-family: see;
+}
+
+@media (max-width: 1000px) {
+    #left-section {
+        display: none !important;
+
+    }
+    #left-resp-section{
+        display: flex !important;
+    }
+    .signup-section{
+        width: 100%;
+        margin: 0;
+    }
+}

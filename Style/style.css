@@ -6,20 +6,21 @@
 }
 
 .stock-img{
-    width: 650px;
+    width: 500px;
     position: absolute;
-    left: 370px;
+    left: 270px;
     top: 38px;
+    
 
 }
 .cycle-img{
-    width: 800px;
+    width: 600px;
     position: absolute;  
-    left: -190px;
+    left: -150px;
     
 }
 .signup-section{
-    margin-right: 200px;
+    margin-right: 120px;
 }
 .txt-color{
   color: #ff5b27;  
